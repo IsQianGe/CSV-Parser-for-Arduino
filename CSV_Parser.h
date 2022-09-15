@@ -119,8 +119,9 @@ public:
 
 #ifndef CSV_PARSER_DONT_IMPORT_SD
   bool readSDfile(const char *f_name);
+  bool readSDfile2(String f_name);
 #endif
-  
+
   int getColumnsCount();
   
   /**  @brief Excluding header (if it was part of supplied CSV).  */
